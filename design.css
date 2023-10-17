@@ -5,15 +5,29 @@ body {
 
 
 @keyframes fadeIn {
-  from {top: 20%; opacity: 0;}
-  to {top: 100; opacity: 1;}
-  
+  from {
+    top: 20%;
+    opacity: 0;
+  }
+
+  to {
+    top: 100;
+    opacity: 1;
+  }
+
 }
 
 @-webkit-keyframes fadeIn {
-  from {top: 20%; opacity: 0;}
-  to {top: 100; opacity: 1;}
-  
+  from {
+    top: 20%;
+    opacity: 0;
+  }
+
+  to {
+    top: 100;
+    opacity: 1;
+  }
+
 }
 
 .wrapper {
@@ -24,21 +38,35 @@ body {
   -webkit-transform: translate(-50%, -50%);
   animation: fadeIn 1000ms ease;
   -webkit-animation: fadeIn 1000ms ease;
-  
+
 }
 
-.soon{
-  position: relative;
-  left: 42%;
-  text-align: center;
-  margin: 18px;
-  font-family: 'Muli', sans-serif;
-  font-weight: normal;
-  transform: translate(-50%, -50%);
-  -webkit-transform: translate(-50%, -50%);
+.center1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  
+  /* transform: translate(-50%, -50%);
+-webkit-transform: translate(-50%, -50%); */
   animation: fadeIn 1000ms ease;
   -webkit-animation: fadeIn 1000ms ease;
-  
+}
+
+.soon {
+  position: relative;
+  /* align-items: center; */
+  /* left: 42%; */
+  /* text-align: center; */
+  /* margin: 18px; */
+  font-family: 'Muli', sans-serif;
+  font-weight: normal;
+  /* transform: translate(-50%, -50%); */
+  /* -webkit-transform: translate(50%, 50%); */
+  animation: fadeIn 1000ms ease;
+  -webkit-animation: fadeIn 1000ms ease;
+
 }
 
 h1 {
@@ -47,6 +75,8 @@ h1 {
   margin-bottom: 0;
   line-height: 1;
   font-weight: 700;
+  margin-left: 0;
+
 }
 
 h2 {
@@ -54,9 +84,10 @@ h2 {
   font-family: 'Poppins', sans-serif;
   margin-bottom: 0;
   margin-top: 0;
+  margin-left: 0;
   line-height: 1;
-  position: relative;
-  left: 10%;
+  /* position: relative; */
+  /* left: 10%; */
   font-weight: 500;
 }
 
@@ -65,16 +96,17 @@ h2 {
 }
 
 p {
-  text-align: center;
-  margin: 18px;
+  position: relative;
+  /* text-align: center; */
+  /* margin: 18px; */
   font-family: 'Muli', sans-serif;
   font-weight: normal;
-  
+
 }
 
 .icons {
   text-align: center;
-  
+
 }
 
 .icons i {
@@ -91,12 +123,13 @@ p {
   position: relative;
 }
 
-.icons i:hover, .icons i:active {
+.icons i:hover,
+.icons i:active {
   color: #fff;
   background: none;
   cursor: pointer !important;
   transform: scale(1.2);
   -webkit-transform: scale(1.2);
   text-decoration: none;
-  
+
 }
