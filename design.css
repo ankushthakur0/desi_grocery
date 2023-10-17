@@ -1,8 +1,12 @@
 body {
-  background: #00091B;
-  color: #fff;
+/* From https://css.glass */
+background-color:#F97D09;
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(6.6px);
+-webkit-backdrop-filter: blur(6.6px);
+border: 1px solid rgba(249, 125, 9, 0.13);
 }
-
 
 @keyframes fadeIn {
   from {top: 20%; opacity: 0;}
@@ -61,7 +65,7 @@ h2 {
 }
 
 .dot {
-  color: #4FEBFE;
+  color: #ffffff;
 }
 
 p {
@@ -81,7 +85,7 @@ p {
 }
 
 .icons i {
-  color: #00091B;
+  color: #ffffff;
   background: #fff;
   height: 15px;
   width: 15px;
