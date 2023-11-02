@@ -1,109 +1,109 @@
 body {
-/* From https://css.glass */
-background-color:#F97D09;
-border-radius: 16px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(6.6px);
--webkit-backdrop-filter: blur(6.6px);
-border: 1px solid rgba(249, 125, 9, 0.13);
-}
-
-@keyframes fadeIn {
-  from {top: 20%; opacity: 0;}
-  to {top: 100; opacity: 1;}
+  /* From https://css.glass */
+  background-color:#F97D09;
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.6px);
+  -webkit-backdrop-filter: blur(6.6px);
+  border: 1px solid rgba(249, 125, 9, 0.13);
+  }
   
-}
-
-@-webkit-keyframes fadeIn {
-  from {top: 20%; opacity: 0;}
-  to {top: 100; opacity: 1;}
+  @keyframes fadeIn {
+    from {top: 20%; opacity: 0;}
+    to {top: 100; opacity: 1;}
+    
+  }
   
-}
-
-.wrapper {
-  position: absolute;
-  left: 52%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  -webkit-transform: translate(-50%, -50%);
-  animation: fadeIn 1000ms ease;
-  -webkit-animation: fadeIn 1000ms ease;
+  @-webkit-keyframes fadeIn {
+    from {top: 20%; opacity: 0;}
+    to {top: 100; opacity: 1;}
+    
+  }
   
-}
-
-.soon{
-  position: relative;
-  left: 42%;
-  text-align: center;
-  margin: 18px;
-  font-family: 'Muli', sans-serif;
-  font-weight: normal;
-  transform: translate(-50%, -50%);
-  -webkit-transform: translate(-50%, -50%);
-  animation: fadeIn 1000ms ease;
-  -webkit-animation: fadeIn 1000ms ease;
+  .wrapper {
+    position: absolute;
+    left: 52%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    animation: fadeIn 1000ms ease;
+    -webkit-animation: fadeIn 1000ms ease;
+    
+  }
   
-}
-
-h1 {
-  font-size: 50px;
-  font-family: 'Poppins', sans-serif;
-  margin-bottom: 0;
-  line-height: 1;
-  font-weight: 700;
-}
-
-h2 {
-  font-size: 50px;
-  font-family: 'Poppins', sans-serif;
-  margin-bottom: 0;
-  margin-top: 0;
-  line-height: 1;
-  position: relative;
-  left: 10%;
-  font-weight: 500;
-}
-
-.dot {
-  color: #ffffff;
-}
-
-p {
-  position: relative;
-  right: 17.5%;
-  width: 140%;
-  font-family: 'Muli', sans-serif;
-  font-weight: normal;
-  text-size-adjust: 140%;
-  margin-top: 5%;
+  .soon{
+    position: relative;
+    left: 42%;
+    text-align: center;
+    margin: 18px;
+    font-family: 'Muli', sans-serif;
+    font-weight: normal;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    animation: fadeIn 1000ms ease;
+    -webkit-animation: fadeIn 1000ms ease;
+    
+  }
   
-}
-
-.icons {
-  text-align: center;
+  h1 {
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 0;
+    line-height: 1;
+    font-weight: 700;
+  }
   
-}
-
-.icons i {
-  color: #ffffff;
-  background: #fff;
-  height: 15px;
-  width: 15px;
-  padding: 13px;
-  margin: 0 10px;
-  border-radius: 50px;
-  border: 2px solid #fff;
-  transition: all 200ms ease;
-  text-decoration: none;
-  position: relative;
-}
-
-.icons i:hover, .icons i:active {
-  color: #fff;
-  background: none;
-  cursor: pointer !important;
-  transform: scale(1.2);
-  -webkit-transform: scale(1.2);
-  text-decoration: none;
+  h2 {
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 0;
+    margin-top: 0;
+    line-height: 1;
+    position: relative;
+    left: 10%;
+    font-weight: 500;
+  }
   
-}
+  .dot {
+    color: #ffffff;
+  }
+  
+  p {
+    position: relative;
+    right: 17.5%;
+    width: 140%;
+    font-family: 'Muli', sans-serif;
+    font-weight: normal;
+    text-size-adjust: 140%;
+    margin-top: 5%;
+    
+  }
+  
+  .icons {
+    text-align: center;
+    
+  }
+  
+  .icons i {
+    color: #ffffff;
+    background: #fff;
+    height: 15px;
+    width: 15px;
+    padding: 13px;
+    margin: 0 10px;
+    border-radius: 50px;
+    border: 2px solid #fff;
+    transition: all 200ms ease;
+    text-decoration: none;
+    position: relative;
+  }
+  
+  .icons i:hover, .icons i:active {
+    color: #fff;
+    background: none;
+    cursor: pointer !important;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    text-decoration: none;
+    
+  }
